@@ -30,6 +30,8 @@ body{
 #balaji{
     background: #002147;
     text-align: center;
+    position:relative;
+    z-index: 1;
 }
 #balaji ul{
     display:inline-flex;
@@ -160,6 +162,7 @@ text-decoration:none;
 marquee ul li{
     list-style-type: none;
     display: inline-block;
+    z-index: 2;
 }
 .scr{
     background: #002147;
