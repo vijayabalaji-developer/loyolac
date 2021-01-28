@@ -164,6 +164,9 @@ marquee ul li{
     display: inline-block;
     z-index: 2;
 }
+marquee{
+z-index:2;
+}
 .scr{
     background: #002147;
     padding-top: 25px;
