@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:aqua;
+
+}
+.nav{
+    width: 23%;
+    float: left;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    background: #002147;
+    padding-bottom: 61px;
+    height: 70px;
+    color: blue;
+}
+.nav img{
+    width: 95%;
+}
+.navitems{
+    width: 74%;
+    float: left;
+}
+#balaji{
+    background: #002147;
+    text-align: center;
+}
+#balaji ul{
+    display:inline-flex;
+    list-style-type: none;
+    color: aliceblue;
+}
+#balaji ul li{
+    width: 100%;
+    margin:10px;
+    padding-left: 0;
+padding-top:20px;
+}
+#balaji ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+.submenu{
+    display: none;
+    color: #002147;
+}
+#balaji ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    background-color: #eeeeee;
+    color: #002147;
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+#balaji ul li:hover .submenu ul{
+    display: block;
+    margin: 10px;
+    color: #002147;
+}
+#balaji ul li:hover .submenu ul li{
+    padding: 10px;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    color: #002147;
+}
+#balaji ul li .submenu ul li a{
+    color:#002147;
+}
+#balaji ul li:hover .submenu ul li a:hover{
+        border: none;
+        color: #fdc800;
+        text-decoration: underline;
+
+}
+#balaji ul li a:hover{
+    border-bottom: 5px solid white;
+    transition: all 500ms ease;
+    border-radius: 2px;
+}
+.submenu{
+    color: #002147;
+}
+.submenu ul {
+    color: #002147;
+}
+.submenu ul li{
+    color: #002147;
+}
+.submenu ul li a{
+    color: #002147;
+}
+.mobile{
+    float: right;
+    background-color: #002147;
+    padding: 28px;
+    padding-top: 29px;
+    padding-right: 20px;
+    display: none;
+}
+.mobile div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+
+}
+.homenav{
+display:none;
+}
+.admission{
+    display: none;
+}
+.sce{
+    display: none;
+}
+.rec{
+    display: none;
+}
+.iqac{
+    display: none;
+}
+.ser{
+    display: none;
+}
+.mobview{
+    display: none;
+}
+.menubar{
+width:100%;
+background:#002147;
+height:90px;
+}
+.nav{
+width:25%;
+background:#002147;
+}
+.navitems{
+background:#002147;
+width:75%;
+}
+a{
+text-decoration:none;
+}
+.imgsec img{
+    width: 100%;
+    height: 100%;
+    background: #002147;
+}
+marquee ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.scr{
+    background: #002147;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.scr li {
+    margin-right: 100%;
+}
+.scr ul li a{
+    color: #ffc315;
+}
+.row{
+    width: 80%;
+}
+.col-sm-3 img{
+    padding: 10px;
+    width: 30%;
+}
+.col-sm-3{
+    background-color:rgb(30, 190, 70);
+}
+@media only screen and (max-width:780px){
+    .navitems{
+        display: none;
+    }
+    .mobile{
+        display: block;
+        width: 20%;
+    }
+    .nav{
+        width: 80%;
+    }
+    .nav img{
+        width:70%;
+    }
+    .mobview{
+        background: #eeeeee;
+        width: 70%;
+        float: left;
+        display: none;
+        position: absolute;
+color:#002147;
+
+    }
+    .mobview ul li{
+        list-style-type: none;
+        display: block;
+        margin: 1%;
+        font-size: 15px;
+        padding: 5px;
+text-transform:capitalize;
+    }
+    .mobview ul li:hover {
+        color: #fdc800;
+        text-decoration: underline;
+    }
+
+    .homenav{
+        background: #eeeeee;
+        width: 70%;
+        float: left;
+        display: none;
+        position: absolute;
+        top: 90px;
+
+    }
+    .homenav ul li{
+        list-style-type: none;
+        display: block;
+        margin: 1%;
+        font-size: 15px;
+        padding: 5px;
+
+    }
+    .homenav ul li a:hover{
+        color: #fdc800;
+        text-decoration: underline;
+    }
+.homenav ul li a,.admission ul li a,.sce ul li a,.rec ul li a,.iqac ul li a,.ser ul li a{
+color:#002147;
+}
+    .admission{
+        background: #eeeeee;
+        width: 70%;
+        float: left;
+        position: absolute;
+        top: 90px;
+        display: none;
+    }
+    .admission ul li{
+        list-style-type: none;
+        display: block;
+        margin: 1%;
+        font-size: 15px;
+        padding: 5px;
+
+    }
+    .admission ul li a:hover{
+        color: #fdc800;
+        text-decoration: underline;
+    }
+    
+    .sce{
+        background: #eeeeee;
+        width: 70%;
+        float: left;
+        position: absolute;
+        top: 90px;
+        display: none;
+    }
+    .sce ul li{
+        list-style-type: none;
+        display: block;
+        margin: 1%;
+        font-size: 15px;
+        padding: 5px;
+
+    }
+    .sce ul li a:hover{
+        color: #fdc800;
+        text-decoration: underline;
+    }
+    .rec{
+        background: #eeeeee;
+        width: 70%;
+        float: left;
+        position: absolute;
+        top: 90px;
+        display: none;
+    }
+    .rec ul li{
+        list-style-type: none;
+        display: block;
+        margin: 1%;
+        font-size: 15px;
+        padding: 5px;
+
+    }
+    .rec ul li a:hover{
+        color: #fdc800;
+        text-decoration: underline;
+    }
+    .iqac{
+        background: #eeeeee;
+        width: 70%;
+        float: left;
+        position: absolute;
+        top: 90px;
+        display: none;
+    }
+    .iqac ul li{
+        list-style-type: none;
+        display: block;
+        margin: 1%;
+        font-size: 15px;
+        padding: 5px;
+
+    }
+    .iqac ul li a:hover{
+        color: #fdc800;
+        text-decoration: underline;
+    }
+    .ser{
+        background: #eeeeee;
+        width: 70%;
+        float: left;
+        position: absolute;
+        top: 90px;
+        display: none;
+    }
+    .ser ul li{
+        list-style-type: none;
+        display: block;
+        margin: 1%;
+        font-size: 15px;
+        padding: 5px;
+
+    }
+    .ser ul li a:hover{
+        color: #fdc800;
+        text-decoration: underline;
+    }
+    .close,.close1,.close2,.close3,.close4,.close5,.close6{
+        color: royalblue;
+    }
+ul li{
+text-transform:capitalize;
+}
+.imgsec img{
+    width: 100%;
+    height: 60vh;
+    background: #002147;
+}
+.homenav ul li  .close{
+
+    color: royalblue;
+    float: left;
+    display: block;
+}
+.col-sm-3 img{
+    width: 15%;
+
+}
+}
