@@ -38,7 +38,9 @@ float:left;
 color:#002147;
 height:230px;
 padding-top:18px;
-padding-left:3%;
+}
+.eventp table{
+margin-left:3%;
 }
 .eventp table tr td{
 text-align:left;
