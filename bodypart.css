@@ -40,7 +40,7 @@ height:240px;
 padding-top:18px;
 }
 .eventp table{
-margin-left:3%;
+padding-left:3%;
 }
 .eventp table tr td{
 text-align:left;
@@ -89,6 +89,6 @@ width:96%;
 padding:0;
 }
 .eventp table{
-width:100%;
+width:96%;
 }
     }
