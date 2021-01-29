@@ -90,4 +90,7 @@ padding:0;
 .eventp table{
 width:96%;
 }
+.eventp table th{
+text-align:center;
+}
     }
