@@ -39,7 +39,7 @@ color:#002147;
 height:270px;
 }
 .eventp table{
-padding-left:3%;
+padding-left:2%;
 height:180px;
 }
 .eventp table tr td{
@@ -82,16 +82,13 @@ text-align:center;
 width:100%;
 }
 .videop video{
-width:100%;
+width:98%;
 }
 .eventp{
 width:100%;
-padding:0;
+padding:5px;
 }
 .eventp table{
 width:96%;
-}
-.eventp table th{
-text-align:center;
 }
     }
