@@ -21,7 +21,7 @@ font-size:15px;
 .videop{
 display:inline-block;
 background:#eeeeee;
-width:57%;
+width:60%;
 float:left;
 color:gold;
 }
@@ -37,7 +37,7 @@ float:left;
 color:#002147;
 height:230px;
 padding-top:18px;
-margin-left:3%;
+padding-left:3%;
 }
 .eventp table tr td{
 text-align:left;
