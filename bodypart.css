@@ -24,11 +24,11 @@ background:#eeeeee;
 width:60%;
 float:left;
 color:gold;
-height:240px;
+height:280px;
 }
 .videop video{
 width:97%;
-height:150px;
+height:180px;
 }
 .eventp{
 display:inline-block;
@@ -36,7 +36,7 @@ width:40%;
 background:#eeeeee;
 float:left;
 color:#002147;
-height:240px;
+height:280px;
 }
 .eventp table{
 padding-left:3%;
