@@ -32,14 +32,13 @@ height:180px;
 }
 .eventp{
 display:inline-block;
-width:36%;
+width:40%;
 background:#eeeeee;
 float:left;
 color:#002147;
 height:270px;
 }
 .eventp table{
-padding-left:3%;
 height:180px;
 }
 .eventp table tr td{
@@ -81,7 +80,7 @@ color:#ffc315;
 width:100%;
 }
 .eventp{
-width:97%;
+width:100%;
 }
 .eventp table{
 width:95%;
